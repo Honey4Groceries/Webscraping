@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="robots" content="noarchive"><meta name="googlebot" content="noarchive"><meta name="robots" content="noindex">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="googlebot" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="none">
+<link href="https://ok6static.oktacdn.com/assets/img/icons/favicons/favicon-16x16.c55b69ae49b08edc7c000d12b8e5483f.png" rel="icon" type="image/png" sizes="16x16"><link href="https://ok6static.oktacdn.com/assets/img/icons/favicons/favicon-32x32.99bc356b6e293b927f9e3a2b69761c26.png" rel="icon" type="image/png" sizes="32x32"><link href="https://ok6static.oktacdn.com/assets/img/icons/favicons/favicon-96x96.de98828614fa33ca04fcfaa07679f345.png" rel="icon" type="image/png" sizes="96x96"><meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/img/icons/favicons/ms-icon-144x144.png">
+<meta name="application-name" content="Okta">
+<meta name="theme-color" content="#ffffff">
+<meta name="msapplication-config" content="/img/icons/favicons/browserconfig.xml">
+
+<title>Albertsons Companies - Signing in...</title>
+<!--[if IE]><link href="https://ok6static.oktacdn.com/assets/css/ie/ie.dfbe39884a139eeaa652e6b1ce8fc198.css" type="text/css" rel="stylesheet"/><![endif]-->
+<!--[if IE 7]><link href="https://ok6static.oktacdn.com/assets/css/ie/ie7.00cf245ce935958a8872ed5b16754ffa.css" type="text/css" rel="stylesheet"/><![endif]-->
+<!--[if IE 8]><link href="https://ok6static.oktacdn.com/assets/css/ie/ie8.ab88bee11dc4e5fc665dd656aa481ced.css" type="text/css" rel="stylesheet"/><![endif]-->
+<!--[if lte IE 8]><link href="https://ok6static.oktacdn.com/assets/css/ie/ie-user-states.c5d8b475ffffc4eddd5443901a30ce35.css" type="text/css" rel="stylesheet"/><![endif]-->
+<!--[if gte IE 9]><link href="https://ok6static.oktacdn.com/assets/css/ie/ie9.2e6d4e6712ae809a0b9259d91cf16475.css" type="text/css" rel="stylesheet"/><![endif]-->
+
+<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+<script>
+    var okta = {
+        migrateMute: true,
+        locale: 'en',
+        debug: false,
+        deployEnv: 'PROD',
+        userId: '',
+        settings: {
+            orgId: '00o48mcxtsU51s5vX2p6',
+            orgName: 'Albertsons\x20Companies',
+            serverStatus: 'ACTIVE',
+            persona: '',
+            isDeveloperConsole: '' === 'true',
+            isPreview: 'false' === 'true',
+            permissions: []
+        },
+        logHasFeatureError: function(message) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', '/api/internal/client-logging/has-feature-error', true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.send(JSON.stringify({
+              message: message
+            }));
+        }
+
+    };
+</script>
+<script>window.okta || (window.okta = {}); okta.cdnUrlHostname = "//ok6static.oktacdn.com"; okta.cdnPerformCheck = false;</script><script>window.okta || (window.okta = {});window.okta.mixpanel = true;window.okta.mixpanelTrackingSamplingFactors = {"_DEFAULT":1.0};</script><script src="https://ok6static.oktacdn.com/assets/js/jquery-1.12.4.min.e93c5a2265fbe2a3e96fe19159fc9a84.js?v=1" type="text/javascript"></script><link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/glnpjglilkicbckjpbgcfkogebgllemb">
+<!--[if lt IE 9]><script src="https://ok6static.oktacdn.com/assets/enduser/js/vendor/css3-mediaqueries.fa295f0132f5335f352071ca3613a94a.js?v=1" type="text/javascript"></script><![endif]-->
+
+<script>if (window.module) module = window.module;</script>
+
+</head>
+<body id="app" class="enduser-app  ">
+<noscript>&lt;div id="noscript-mask"&gt;&lt;/div&gt;&lt;div id="noscript-msg" class="infobox infobox-warning infobox-compact"&gt;&lt;span class="icon warning-16"&gt;&lt;/span&gt;&lt;h3&gt;Javascript is disabled on your browser.&lt;/h3&gt;&lt;p&gt;Please enable Javascript and refresh this page to use Okta.&lt;/p&gt;&lt;/div&gt;</noscript>
+
+<div id="container">
+<link href="https://ok6static.oktacdn.com/assets/css/sections/interstitial.c22f9cc988086c3b50de2f50b83669e5.css" type="text/css" rel="stylesheet"><script>
+    var interstitialMinWaitTime = 1200;
+    </script>
+<form id="appForm" action="https://shop.vons.com/welcome/sign-in.html" method="GET">
+    <input name="SAMLRequest" type="hidden" value="fZJRT4MwFIX/Cuk7lAJj2IyZxWXJEjXGTU18q3A3OqHF3jKcv94OnZkP+tSkPfeec7/byeV7U3t7MCi1ygkLQuKBKnQp1TYnD+uFn5HL6QRFU0ctn3W2Uvfw1gFazxUq5F8vOemM4lqgRK5EA8htwVezm2seBSFvjba60DXxZohgrLO60gq7BswKzF4W8HB/nZPK2hY5paJ+cSJ0ikC/WhEUuqGImg5WNNSCVemob9/s+ONpNXPuY+LNXSKphB2mODXCSrfB/tjn2KKH2h1AUW6VL1VQ2cYlWmhTwDBXTjaiRiDecp4TWUajLMlGCUvGozhLwzhhF2lyEaepI7RE7GCp0AplcxKFLPNZ5MdsHTEeZTyMgzDKnon3eOLqKJBvinwoNuf4/qcnTszI9DRY3/dnaAYs+AXSd6z3sgRDsd2oXtudPmC5++gOsGvlhJ5H+FnrrfNczu90LYvDEUgj7N+RWMCGG1n6m0HKO4UtFHIjoSR0+u3x+7NMPwE=">
+    <input name="RelayState" type="hidden" value="%2Foauth2%2Fv1%2Fauthorize%2Fredirect%3Fokta_key%3DGce0moAYcWq_8GRqs2P9GuliUgIkvKpO2PqKDpxoO6Y">
+    <input name="SigAlg" type="hidden" value="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256">
+        <input name="Signature" type="hidden" value="PR8YSOfw6e7fp0fPvreP5SYp5hv//6NTE1E7nP9ePdZkbWSyLIi48DOI1MJ87ttZZrj8Lmln4tZkXliDIaEMAL0yjwY8+RCEIwHsbV2eQMKz3fUmuSO/elxvinTYDx2D5QdBiv7T+QZXncNztSa3GFXQe4e6Xz0uu4lt1Ts+PekNxgO9VtTiBiia1WXF4U2sjs/PQsWRNjFqqDOvG1Rm99bBbZIKVRIukc7NXD9JJ0HVfUIx2KNko9LmIP2dwCoxLYlRwRjY/TiIB2Atnjy2VNyfa+EZAC10F3mEj4XrxeyhItNeRltv33fWo4PFvbTRugqRqZwRGOBKwST2arQdbw==">
+    </form>
+
+<script src="https://ok6static.oktacdn.com/assets/js/app/sso/interstitial.474dce61acfac4a4d016921943cf2a68.js?v=1" type="text/javascript"></script></div>
+<!-- close #container -->
+
+
+
+</body></html>
