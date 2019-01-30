@@ -13,5 +13,5 @@ getStartedButton = browser.find_element_by_css_selector \
 ("#zipcodeform > input.btn.btn-default")
 getStartedButton.click()
 
-#if comment next line out is able to get into home page
-browser.get("https://shop.vons.com/aisles/bread-bakery/bakery-bread.2118.html")
+##if comment next line out is able to get into home page
+browser.get("https://shop.vons.com/aisles/bread-bakery/bakery-bread.2118")
