@@ -12,9 +12,6 @@ text_file = open("output.txt", "w")
 # Container for page nav buttons
 paging_elem = browser.find_element_by_class_name("paging")
 
-# Each element labeled as a button
-page_btns = paging_elem.find_elements_by_class_name("btn")
-
 
 # Scrape items on the page
 def scrapeItems():
@@ -36,7 +33,6 @@ def scrapeItems():
 
 # Scrape first page of items
 scrapeItems()
-counter = 0
 
 # Iterate through the rest of the pages
 while 1:
@@ -44,7 +40,6 @@ while 1:
         paging_elem = browser.find_element_by_class_name("paging")
         link = paging_elem.find_element_by_class_name("forward")
         link.click()
-        counter = counter + 1
         scrapeItems()
     except:
         break
