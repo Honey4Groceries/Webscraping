@@ -81,7 +81,29 @@ if __name__ == '__main__':
     # driver.get_screenshot_as_file("file2a.png")
 
     """
-        Parse the elements in driver and save them to the list
+        Scroll until the last page
+        
+        See reference for original code. 
+        
+        Reference: https://michaeljsanders.com/2017/05/12/scrapin-and-scrollin.html
+        
+        TODO: Implement and refactor so that the code reads the new page 
+    """
+
+    lenOfPage = driver.execute_script(
+        "window.scrollTo(0, document.body.scrollHeight);var lenOfPage=document.body.scrollHeight;return lenOfPage;")
+    match = False
+    while (match == False):
+
+        lastCount = lenOfPage
+        time.sleep(3)
+        lenOfPage = driver.execute_script(
+            "window.scrollTo(0, document.body.scrollHeight);var lenOfPage=document.body.scrollHeight;return lenOfPage;")
+        if lastCount == lenOfPage:
+            match = True
+
+    """
+           Parse the elements in driver and save them to the list
     """
 
     products = list()
@@ -90,7 +112,7 @@ if __name__ == '__main__':
     for product in product_col:
         """
             For each product-item, retrieve its price and title and more. 
-            
+
             TODO: parse more fields
         """
         title_text = get_produce_title(product)
@@ -103,18 +125,6 @@ if __name__ == '__main__':
     """
 
     print(products)
-
-    """
-        Find button that goes to the next page and click
-        TODO: Implement and refactor so that the code reads the new page 
-        
-    """
-
-    # Sample code for clicking next
-    #   (does not work since it's written with another library, adapt to selenium first)
-    # submit the search form...
-    #     button = browser.find_by_css("button[type='submit']")
-    #     button.click()
 
     """
         Save products as JSON to file.
