@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d059f8-3b4c-4897-8ad6-8a6967463dfc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="90d059f8-3b4c-4897-8ad6-8a6967463dfc" name="Default Changelist" comment="Add scroll actions">
       <change beforePath="$PROJECT_DIR$/page_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/page_source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample2.py" beforeDir="false" afterPath="$PROJECT_DIR$/sample2.py" afterDir="false" />
     </list>
@@ -26,7 +25,7 @@
         <counts>
           <entry key="cache" value="1" />
           <entry key="html" value="1" />
-          <entry key="json" value="2" />
+          <entry key="json" value="7" />
           <entry key="log" value="2" />
           <entry key="md" value="1" />
           <entry key="png" value="5" />
@@ -38,7 +37,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="Image" value="5" />
-          <entry key="JSON" value="2" />
+          <entry key="JSON" value="7" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="3" />
@@ -47,15 +46,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="28" />
-          <entry key="py" value="2692" />
-          <entry key="txt" value="59" />
+          <entry key="py" value="2955" />
+          <entry key="txt" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="28" />
-          <entry key="PLAIN_TEXT" value="59" />
-          <entry key="Python" value="2692" />
+          <entry key="PLAIN_TEXT" value="97" />
+          <entry key="Python" value="2955" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -70,12 +69,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sample2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="125" column="4" selection-start-line="125" selection-start-column="4" selection-end-line="125" selection-end-column="4" />
+            <state relative-caret-position="252">
+              <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
               <folding>
                 <element signature="e#438#468#0" expanded="true" />
-                <marker date="1549350334293" expanded="true" signature="1140:1236" ph="..." />
+                <marker date="1549351015915" expanded="true" signature="1140:1236" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1549350828.319712.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="412" lean-forward="true" selection-start-column="412" selection-end-column="412" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1549350741.423335.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -83,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/splinter/browser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
+            <state relative-caret-position="186">
               <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
             </state>
           </provider>
@@ -113,10 +130,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page_source.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30015">
-              <caret line="2001" column="40" selection-start-line="2001" selection-start-column="40" selection-end-line="2001" selection-end-column="40" />
+            <state relative-caret-position="13665">
+              <caret line="911" column="18" selection-start-line="911" selection-start-column="18" selection-end-line="911" selection-end-column="18" />
               <folding>
-                <element signature="n#style#0;n#iframe#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -175,6 +191,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/sample.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/1549350361.901972.json" />
         <option value="$PROJECT_DIR$/sample2.py" />
       </list>
     </option>
@@ -308,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549349786714</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add scroll actions">
+      <created>1549350343967</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549350343967</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -382,7 +406,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Add scroll actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add scroll actions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/file4.png" />
@@ -397,24 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="2636" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="125" column="4" selection-start-line="125" selection-start-column="4" selection-end-line="125" selection-end-column="4" />
-          <folding>
-            <element signature="e#438#468#0" expanded="true" />
-            <marker date="1549350334293" expanded="true" signature="1140:1236" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/splinter/browser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -437,11 +444,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page_source.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30015">
-          <caret line="2001" column="40" selection-start-line="2001" selection-start-column="40" selection-end-line="2001" selection-end-column="40" />
+        <state relative-caret-position="13665">
+          <caret line="911" column="18" selection-start-line="911" selection-start-column="18" selection-end-line="911" selection-end-column="18" />
           <folding>
-            <element signature="n#style#0;n#iframe#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1549350278.223041.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1549350361.901972.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/splinter/browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1549350741.423335.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1549350828.319712.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="412" lean-forward="true" selection-start-column="412" selection-end-column="412" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
+          <folding>
+            <element signature="e#438#468#0" expanded="true" />
+            <marker date="1549351015915" expanded="true" signature="1140:1236" ph="..." />
           </folding>
         </state>
       </provider>

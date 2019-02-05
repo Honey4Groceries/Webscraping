@@ -81,7 +81,30 @@ if __name__ == '__main__':
     # driver.get_screenshot_as_file("file2a.png")
 
     """
-        Scroll until the last page
+        Code for parsing the elements in driver and saving them to the list
+    """
+
+    products = list()
+
+
+    def add_products():
+
+        product_col = driver.find_elements_by_tag_name("product-item")
+        for product in product_col:
+            """
+                For each product-item, retrieve its price and title and more. 
+
+                TODO: parse more fields
+            """
+            title_text = get_produce_title(product)
+            price_str = get_product_price(product)
+            price_substr = price_str.split("$")[1]
+            products.append(create_product_dict(title_text, price_substr))
+
+        print(products)
+
+    """
+        Scroll until the last page. At each page, parse the elements in driver and save them to the list
         
         See reference for original code. 
         
@@ -90,35 +113,24 @@ if __name__ == '__main__':
         TODO: Implement and refactor so that the code reads the new page 
     """
 
+    max_scroll_count = 3
+    scroll_count = 0
+
     lenOfPage = driver.execute_script(
         "window.scrollTo(0, document.body.scrollHeight);var lenOfPage=document.body.scrollHeight;return lenOfPage;")
     match = False
     while (match == False):
-
         lastCount = lenOfPage
         time.sleep(3)
         lenOfPage = driver.execute_script(
             "window.scrollTo(0, document.body.scrollHeight);var lenOfPage=document.body.scrollHeight;return lenOfPage;")
+        scroll_count += 1
+        if scroll_count >= max_scroll_count:
+            break
         if lastCount == lenOfPage:
             match = True
 
-    """
-           Parse the elements in driver and save them to the list
-    """
-
-    products = list()
-
-    product_col = driver.find_elements_by_tag_name("product-item")
-    for product in product_col:
-        """
-            For each product-item, retrieve its price and title and more. 
-
-            TODO: parse more fields
-        """
-        title_text = get_produce_title(product)
-        price_str = get_product_price(product)
-        price_substr = price_str.split("$")[1]
-        products.append(create_product_dict(title_text, price_substr))
+    add_products()  # Parse and save to list
 
     """
         Print the product information to dict
