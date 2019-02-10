@@ -27,6 +27,7 @@ def scrapeItems():
             except:
                 text_file.write("Warehouse only -- No price listed.\n")
 
+links = ["https://www.costco.com/kirkland-signature-groceries.html?currentPage=1"]
 
 # Loops through each webpage
 for link in links:
