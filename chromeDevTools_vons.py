@@ -7,7 +7,7 @@ import json
 requestIDs= []
 
 # callback for requestWillBeSent, finds requests with 'aemaisle' and add the id
-# it to requestIDs
+# it to requestIDs. When Vons makes a HTTP request this will be called
 def request_will_be_sent(**kwargs):
     if 'aemaisle' in kwargs.get('request').get('url'):
         requestIDs.append(kwargs.get('requestId'))
