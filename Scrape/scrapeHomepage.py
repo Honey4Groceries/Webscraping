@@ -11,8 +11,6 @@ from selenium import webdriver
 import requests
 import urllib.request
 from bs4 import BeautifulSoup
-import re
-#imported re for regular expressions
 
 #create a headless chrome
 options = webdriver.ChromeOptions()
