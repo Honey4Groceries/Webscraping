@@ -24,10 +24,32 @@ tried changing from driver scroll to tab scroll (tab has no scroll)
 requestIDs= []
 
 def request_will_be_sent(**kwargs):
-    print("1")
     if 'api/search?' in kwargs.get('request').get('url'):
         requestIDs.append(kwargs.get('requestId'))
         print(kwargs.get('request').get('url'))
+
+def scroll(driver):
+
+    last_height = driver.execute_script("return document.documentElement.scrollHeight")
+    actions = ActionChains(driver)
+
+    while True:
+        #using action chains to scroll
+        actions.send_keys(Keys.PAGE_DOWN).perform()
+        actions.send_keys(Keys.PAGE_DOWN).perform()
+        time.sleep(1)
+
+        actions.send_keys(Keys.PAGE_DOWN).perform()
+        actions.send_keys(Keys.PAGE_DOWN).perform()
+        time.sleep(1)
+
+        # Calculate new scroll height and compare with last scroll height
+        new_height = driver.execute_script("return document.documentElement.scrollHeight")
+
+        if new_height == last_height:
+                return
+
+        last_height = new_height
 
 url = 'https://products.wholefoodsmarket.com/search?sort=relevance&store=10066&category=breads-rolls-bakery'
 
@@ -42,6 +64,7 @@ driver = webdriver.Chrome(chrome_options=options)
 browser = pychrome.Browser(url='http://127.0.0.1:9222')
 tab = browser.new_tab()
 
+
 # SWITCH THE FOCUS TAB THIS IS THE LINE THAT FINALLY FIXED IT OMG
 driver.switch_to.window(driver.window_handles[1])
 
@@ -51,32 +74,7 @@ tab.start()
 tab.call_method('Network.enable')
 tab.call_method('Page.navigate', url=url, _timeout=10)
 
-SCROLL_PAUSE_TIME = 0.5
-
-# Get scroll height
-last_height = driver.execute_script("return document.documentElement.scrollHeight")
-actions = ActionChains(driver)
-while True:
-
-    #using action chains to scroll
-    actions.send_keys(Keys.PAGE_DOWN).perform()
-    actions.send_keys(Keys.PAGE_DOWN).perform()
-    time.sleep(1)
-
-    actions.send_keys(Keys.PAGE_DOWN).perform()
-    actions.send_keys(Keys.PAGE_DOWN).perform()
-    time.sleep(1)
-
-    # Calculate new scroll height and compare with last scroll height
-    new_height = driver.execute_script("return document.documentElement.scrollHeight")
- 
-    print(new_height)
-    print(last_height)
-
-    if new_height == last_height:
-        break
-    last_height = new_height
-
+scroll(driver)
 
 tab.wait(10)
 
