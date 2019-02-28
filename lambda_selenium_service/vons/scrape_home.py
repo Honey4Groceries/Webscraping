@@ -2,31 +2,19 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import json
 
-def hello(event, context):
-    body = {
-        "message": "Go Serverless v1.0! Your function executed successfully!",
-        "input": event
-    }
+def main(event, context):
 
-    title = scrapeVons()
+    productData = scrapeVons()
 
     response = {
         "headers": {'Content-Type': 'application/json'},
         "isBase64Encoded": False,
         "statusCode": 200,
-        "body": json.dumps({'data': title})
+        "body": json.dumps({'data': productData})
     }
 
     return response
 
-    # Use this code if you don't use the http event with the LAMBDA-PROXY
-    # integration
-    """
-    return {
-        "message": "Go Serverless v1.0! Your function executed successfully!",
-        "event": event
-    }
-    """
 
 """
 def scrapeVons():

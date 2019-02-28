@@ -22,6 +22,11 @@ layers:
         CompatibleRuntimes: [
             "python3.6"
         ]
+    requests:
+        path: requests
+        CompatibleRuntimes: [
+            "python3.6"
+        ]
 resources:
     Outputs:
         SeleniumLayerExport:
@@ -39,3 +44,8 @@ resources:
                 Ref: BeautifulsoupLambdaLayer
             Export:
                 Name: BeautifulsoupLambdaLayer
+        RequestsLayerExport:
+            Value:
+                Ref: RequestsLambdaLayer
+            Export:
+                Name: RequestsLambdaLayer
