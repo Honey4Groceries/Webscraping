@@ -55,7 +55,7 @@ def scrape_category(urls):
             except:
                 # Reached last page in the category
                 break
-        
+
         product_cat_data.append({'category':category_name, 'data':product_data})
     return product_cat_data
 
@@ -75,7 +75,7 @@ def scrapeItems(bsObj):
     else:
         # Iterates through each product, print the name and price to the output text file
         for idx in range(0, len(productList)):
-            product_name = productList[idx].find("p", {"class":"description"}).text
+            product_name = productList[idx].find("p", {"class":"description"}).text.lstrip('\n').rstrip('\n')
             # Some products do not have a price listed because they are only available in the warehouse
             product_price = None
             try:
