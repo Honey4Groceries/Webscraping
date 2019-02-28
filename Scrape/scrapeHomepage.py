@@ -15,7 +15,6 @@ from bs4 import BeautifulSoup
 #create a headless chrome
 options = webdriver.ChromeOptions()
 options.add_argument('headless')
-# options.add_argument('dump-dom')
 options.add_argument('disable-dev-shm-usage')
 options.add_argument('remote-debugging-port=8080')
 

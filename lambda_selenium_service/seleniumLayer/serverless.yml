@@ -17,8 +17,8 @@ layers:
         CompatibleRuntimes: [
             "python3.6"
         ]
-    pychrome:
-        path: pychrome
+    beautifulsoup:
+        path: beautifulsoup
         CompatibleRuntimes: [
             "python3.6"
         ]
@@ -34,8 +34,8 @@ resources:
                 Ref: ChromedriverLambdaLayer
             Export:
                 Name: ChromedriverLambdaLayer
-        PychromeLayerExport:
+        BeautifulsoupLayerExport:
             Value:
-                Ref: PychromeLambdaLayer
+                Ref: BeautifulsoupLambdaLayer
             Export:
-                Name: PychromeLambdaLayer
+                Name: BeautifulsoupLambdaLayer

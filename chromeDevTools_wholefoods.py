@@ -14,7 +14,6 @@ url = 'https://products.wholefoodsmarket.com/search?sort=relevance&store=10066&c
 options = webdriver.ChromeOptions()
 
 options.add_argument('headless')
-options.add_argument('remote-debugging-port=9222')
 
 driver = webdriver.Chrome(chrome_options=options)
 
