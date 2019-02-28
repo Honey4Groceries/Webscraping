@@ -54,6 +54,11 @@ def scrape_home():
     urls.pop(0)
     urls.pop(0)
 
+    #remove the last two elements because there are no products
+    #in those categories
+    del urls[-1]
+    del urls[-1]
+
 # quit browser
     browser.quit()
     return urls
