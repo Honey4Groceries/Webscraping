@@ -34,14 +34,9 @@ def scroll(driver):
     actions = ActionChains(driver)
 
     while True:
-        #using action chains to scroll
-        actions.send_keys(Keys.PAGE_DOWN).perform()
-        actions.send_keys(Keys.PAGE_DOWN).perform()
-        time.sleep(1)
-
-        actions.send_keys(Keys.PAGE_DOWN).perform()
-        actions.send_keys(Keys.PAGE_DOWN).perform()
-        time.sleep(1)
+        # using action chains to scroll
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+        time.sleep(.5)
 
         # Calculate new scroll height and compare with last scroll height
         new_height = driver.execute_script("return document.documentElement.scrollHeight")
@@ -76,9 +71,8 @@ tab.call_method('Page.navigate', url=url, _timeout=10)
 
 scroll(driver)
 
-tab.wait(10)
-
-for requestID in requestIDs:
-    print(json.dumps(json.loads(tab.call_method('Network.getResponseBody', requestId=requestID)['body']), indent=4) + '\n\n\n\n\n\n^^^^^^^^^^^^^^^^^^^^')
+print(len(requestIDs))
+# for requestID in requestIDs:
+#     print(json.dumps(json.loads(tab.call_method('Network.getResponseBody', requestId=requestID)['body']), indent=4) + '\n\n\n\n\n\n^^^^^^^^^^^^^^^^^^^^')
 tab.stop()
 driver.quit()
