@@ -4,8 +4,6 @@ import json
 
 def main(event, context):
 
-    urls = scrape_home()
-
     response = {
         "headers": {'Content-Type': 'application/json'},
         "isBase64Encoded": False,
