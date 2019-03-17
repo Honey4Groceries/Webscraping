@@ -1,4 +1,6 @@
-# Honey For Groceries: Webscraping Design Doc [Link](https://hackmd.io/8QnQ692ASdeRblvLGjAtbQ)
+# Honey For Groceries: Webscraping Design Doc
+
+## [Link](https://hackmd.io/8QnQ692ASdeRblvLGjAtbQ)
 
 ## Logistics
 
