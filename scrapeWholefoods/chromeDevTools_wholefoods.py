@@ -9,6 +9,24 @@ def request_will_be_sent(**kwargs):
         requestIDs.append(kwargs.get('requestId'))
         print(kwargs.get('request').get('url'))
 
+def scroll(driver):
+
+    last_height = driver.execute_script("return document.documentElement.scrollHeight")
+    actions = ActionChains(driver)
+
+    while True:
+        # using action chains to scroll
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+        time.sleep(.5)
+
+        # Calculate new scroll height and compare with last scroll height
+        new_height = driver.execute_script("return document.documentElement.scrollHeight")
+
+        if new_height == last_height:
+                return
+
+        last_height = new_height
+
 url = 'https://products.wholefoodsmarket.com/search?sort=relevance&store=10066&category=breads-rolls-bakery'
 
 options = webdriver.ChromeOptions()
@@ -19,6 +37,8 @@ driver = webdriver.Chrome(chrome_options=options)
 
 browser = pychrome.Browser(url='http://127.0.0.1:9222')
 tab = browser.new_tab()
+
+driver.switch_to.window(driver.window_handles[1])
 
 tab.set_listener('Network.requestWillBeSent', request_will_be_sent)
 
