@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import json
+import time
 
 def main(event, context):
     if 'queryStringParameters' not in event.keys() or 'urls' not in event['queryStringParameters'].keys():
@@ -28,6 +29,7 @@ def scrape_category(urls):
     headers = {'User-Agent':'Wget/1.11.4', 'Accept':'*/*',
                'Connection':'Keep-Alive'}
     product_cat_data = []
+    int num_requests = 0
     for url in urls:
         html = requests.get(url, headers=headers)
 
@@ -52,11 +54,15 @@ def scrape_category(urls):
 
                 # Scrape all items on the page
                 product_data.extend(scrapeItems(bsObj))
+                # Count number of requests sent
+                num_requests = num_requests + 1
+                # Delay requests
+                time.sleep(2)
             except:
                 # Reached last page in the category
                 break
 
-        product_cat_data.append({'category':category_name, 'data':product_data})
+        product_cat_data.append({'category':category_name, 'data':product_data, 'num_req': num_requests})
     return product_cat_data
 
 """
