@@ -42,4 +42,5 @@ functions:
             method: get
     layers:
         - ${cf:selenium-layer-dev.BeautifulsoupLayerExport}
-        - ${cf:selenium-layer-dev.RequestsLayerExport}
+        - ${cf:selenium-layer-dev.ChromedriverLayerExport}
+        - ${cf:selenium-layer-dev.SeleniumLayerExport}

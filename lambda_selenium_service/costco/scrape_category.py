@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-import requests
+from selenium import webdriver
 import json
 import time
 
@@ -29,12 +29,26 @@ def scrape_category(urls):
     headers = {'User-Agent':'Wget/1.11.4', 'Accept':'*/*',
                'Connection':'Keep-Alive'}
     product_cat_data = []
-    int num_requests = 0
-    for url in urls:
-        html = requests.get(url, headers=headers)
 
+    options = webdriver.ChromeOptions()
+    options.binary_location = '/opt/headless-chromium'
+    options.add_argument('headless')
+    options.add_argument('single-process')
+    options.add_argument('disable-dev-shm-usage')
+    options.add_argument('no-sandbox')
+    options.add_argument('homedir=/tmp')
+    options.add_argument('data-path=/tmp/data-path')
+    options.add_argument('disk-cache-dir=/tmp/cache-dir')
+
+    driver = webdriver.Chrome('/opt/chromedriver', chrome_options=options)
+    driver.command_executor._commands.update({'getLog': ('POST', '/session/$sessionId/log')})
+
+    for url in urls:
+        driver.get(url)
+        html = driver.page_source
+        """note that THIS IS THE PROBLEM, html is not a html apparantly"""
         # Create a BeautifulSoup object
-        bsObj = BeautifulSoup(html.text, 'html.parser')
+        bsObj = BeautifulSoup(html, 'html.parser')
 
         category_name = bsObj.title.get_text()
 
@@ -44,25 +58,25 @@ def scrape_category(urls):
         # If multiple pages exist, iterate through each page and scrape it
         while 1:
             try:
+                #wait a bit so that we don't get banned
+                time.sleep(0.5)
                 # Find next page button and go to it
                 paging_elem = bsObj.find("li", {"class":"forward"})
                 url = paging_elem.find("a")
                 link = url.get('href')
 
-                html = requests.get(link, headers=headers)
-                bsObj = BeautifulSoup(html.text, 'html.parser')
+                driver.get(link)
+                html = driver.page_source
+                bsObj = BeautifulSoup(html, 'html.parser')
 
                 # Scrape all items on the page
                 product_data.extend(scrapeItems(bsObj))
-                # Count number of requests sent
-                num_requests = num_requests + 1
-                # Delay requests
-                time.sleep(2)
+
             except:
                 # Reached last page in the category
                 break
 
-        product_cat_data.append({'category':category_name, 'data':product_data, 'num_req': num_requests})
+        product_cat_data.append({'category':category_name, 'data':product_data})
     return product_cat_data
 
 """
