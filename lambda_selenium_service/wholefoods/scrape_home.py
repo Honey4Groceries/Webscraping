@@ -4,6 +4,15 @@ import json
 import re
 
 def main(event, context):
+     """ Main function that is executed upon lambda function invocation.
+    
+    Arguments:
+        event {dict} -- event data of function invocation
+        context {[LambdaContext]} -- runtime information to handler
+    
+    Returns:
+        json -- type 
+    """
     response = {
         "headers": {'Content-Type': 'application/json'},
         "isBase64Encoded": False,
@@ -14,6 +23,11 @@ def main(event, context):
     return response
 
 def scrape_home():
+    """scrapes category urls
+    
+    Returns:
+        [string] -- list of category urls as strings
+    """
     options = webdriver.ChromeOptions()
     options.binary_location = '/opt/headless-chromium'
     options.add_argument('headless')
