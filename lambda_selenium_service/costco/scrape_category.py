@@ -56,7 +56,7 @@ def scrape_category(urls):
         product_data = scrapeItems(bsObj)
 
         # If multiple pages exist, iterate through each page and scrape it
-        while 1:
+        """while 1:
             try:
                 #wait a bit so that we don't get banned
                 time.sleep(0.5)
@@ -75,7 +75,7 @@ def scrape_category(urls):
             except:
                 # Reached last page in the category
                 break
-
+"""
         product_cat_data.append({'category':category_name, 'data':product_data})
     return product_cat_data
 
