@@ -4,31 +4,30 @@ from bse4 import BeautifulSoup
 class scrapeDriver:
 		#Constructor with URL, desired capabilities=False
 		def __init__(self, desired_capabilities=False):
-      	self.url = url
 
-      	#Add all chrome options
-      	options = webdriver.ChromeOptions()
-      	options.binary_location = '/opt/headless-chromium'
-      	options.add_argument('headless')
-      	options.add_argument('single-process')
-      	options.add_argument('disable-dev-shm-usage')
-      	options.add_argument('no-sandbox')
-      	options.add_argument('homedir=/tmp')
-      	options.add_argument('data-path=/tmp/data-path')
-      	options.add_argument('disk-cache-dir=/tmp/cache-dir')
+            #Add all chrome options
+            options = webdriver.ChromeOptions()
+            options.binary_location = '/opt/headless-chromium'
+            options.add_argument('headless')
+            options.add_argument('single-process')
+            options.add_argument('disable-dev-shm-usage')
+            options.add_argument('no-sandbox')
+            options.add_argument('homedir=/tmp')
+            options.add_argument('data-path=/tmp/data-path')
+            options.add_argument('disk-cache-dir=/tmp/cache-dir')
 
-      	#Add the additional desired_capabilities in if the optional param is true
-      	if desired_capabilities:
-      			desired_capabilities = webdriver.DesiredCapabilities.CHROME.copy()
-      			desired_capabilities['loggingPrefs'] = {'performance': 'INFO'}
-      			self.driver = webdriver.Chrome('/opt/chromedriver', 
-      					chrome_options=options, desired_capabilities=desired_capabilities)
-      	else:
-      			self.driver = webdriver.Chrome('/opt/chromedriver', chrome_options=options)
+            #Add the additional desired_capabilities in if the optional param is true
+            if desired_capabilities:
+                    desired_capabilities = webdriver.DesiredCapabilities.CHROME.copy()
+                    desired_capabilities['loggingPrefs'] = {'performance': 'INFO'}
+                    self.driver = webdriver.Chrome('/opt/chromedriver', 
+                            chrome_options=options, desired_capabilities=desired_capabilities)
+            else:
+                    self.driver = webdriver.Chrome('/opt/chromedriver', chrome_options=options)
 
     def get(self, url):
     		try:
-    				self.browser.get(url)
+    				self.driver.get(url)
     		except:
     				print('Error running driver.get() on the input URL')
     				traceback.print_exc()
@@ -39,7 +38,7 @@ class scrapeDriver:
     def quit(self):
         if self.driver:
             try:
-    		        self.browser.quit()
+    		        self.driver.quit()
             except:
                 print('Error quitting driver')
                 traceback.print_exc()
