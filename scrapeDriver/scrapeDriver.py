@@ -37,7 +37,14 @@ class scrapeDriver:
     		return self.browser.page_source
 
     def quit(self):
-    		self.browser.quit()
+        if self.driver:
+            try:
+    		        self.browser.quit()
+            except:
+                print('Error quitting driver')
+                traceback.print_exc()
+        else:
+            print('Driver does not exist or has already quitted')
 
     def scroll(self):
 		    """scroll down on page 
@@ -46,7 +53,9 @@ class scrapeDriver:
 		        self {scrapeDriver} -- scrapeDriver to be scrolled down on
 		    """
 
-		    last_height = self.driver.execute_script("return document.documentElement.scrollHeight")
+        
+		    last_height = self.driver.execute_script(
+            "return document.documentElement.scrollHeight")
 
 		    while True:
 		        # execute js to scroll
