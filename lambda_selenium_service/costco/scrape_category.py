@@ -29,7 +29,7 @@ def scrape_category(urls):
     headers = {'User-Agent':'Wget/1.11.4', 'Accept':'*/*',
                'Connection':'Keep-Alive'}
     product_cat_data = []
-    int num_requests = 0
+
     for url in urls:
         html = requests.get(url, headers=headers)
 

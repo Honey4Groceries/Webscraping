@@ -1,71 +1,64 @@
 from selenium import webdriver
+from urllib import parse
+import requests
 import time
 import json
+from urllib.parse import urlparse
 
 def main(event, context):
-    response = {
+    if 'queryStringParameters' not in event.keys() or 'url' not in event['queryStringParameters'].keys():
+        failedResponse = {
             "headers": {'Content-Type': 'application/json'},
             "isBase64Encoded": False,
-            "statusCode": 200,
-            "body": json.dumps({'data': scrape_category()})
+            "statusCode": 406,
+            "body": json.dumps({"data": 'URL must be specified!',"store": "Wholefoods","url": []})
+        }
+        return failedResponse
+
+    url = event['queryStringParameters']['url']
+
+    product_data = scrape_category(url)
+    #print(product_data)
+    response = {
+        "headers": {'Content-Type': 'application/json'},
+        "isBase64Encoded": False,
+        "statusCode": 200,
+        "body": json.dumps({"data": product_data,"store": "Wholefoods","url": url})
     }
+
     return response
 
-def scroll(driver):
+def scrape_category(url):
 
-    last_height = driver.execute_script("return document.documentElement.scrollHeight")
-
-    while True:
-        # using action chains to scroll
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
-        time.sleep(.5)
-
-        # Calculate new scroll height and compare with last scroll height
-        new_height = driver.execute_script("return document.documentElement.scrollHeight")
-
-        if new_height == last_height:
-            return
-
-        last_height = new_height
-
-def scrape_category():
-
-    requestIDs = []
     data = []
 
-    url = 'https://products.wholefoodsmarket.com/search?sort=relevance&store=10066&category=breads-rolls-bakery'
+    headers = {'User-Agent':'Wget/1.11.4', 'Accept':'*/*', 'Connection':'Keep-Alive'}
 
-    desired_capabilities = webdriver.DesiredCapabilities.CHROME.copy()
-    desired_capabilities['loggingPrefs'] = {'performance': 'INFO'}
+    # First page of data
+    skip = 0
+    info = requests.get(url, headers=headers)
+    loaded_json = json.loads(info.text)
+    load_more = True
+    #add the jsons to the data list
+    data.extend(loaded_json["list"])
+    print(data)
 
-    options = webdriver.ChromeOptions()
-    options.binary_location = '/opt/headless-chromium'
-    options.add_argument('headless')
-    options.add_argument('single-process')
-    options.add_argument('disable-dev-shm-usage')
-    options.add_argument('no-sandbox')
-    options.add_argument('homedir=/tmp')
-    options.add_argument('data-path=/tmp/data-path')
-    options.add_argument('disk-cache-dir=/tmp/cache-dir')
+    #while there is still data to scrape for that category
+    while(load_more):
+        #update skip
+        skip = skip + 20
+        #update url
+        parsedDict = parse.parse_qs(url)
+        parsedDict['skip'] = [str(skip)]
+        url = urlparse.urlunparse(parsedDict)
+        #get next page
+        info = requests.get(url, headers=headers)
+        loaded_json = json.loads(info.text)
+        load_more = loaded_json["hasLoadMore"]
+        print("actual return = "+ str(loaded_json["hasLoadMore"]))
+        print("load_more = " + str(load_more))
+        #add the jsons to the data list
+        data.extend(loaded_json["list"])     
 
-    driver = webdriver.Chrome('/opt/chromedriver', chrome_options=options, desired_capabilities=desired_capabilities)
-    driver.command_executor._commands.update({'getLog': ('POST', '/session/$sessionId/log')})
-
-    driver.get(url)
-
-    scroll(driver)
-
-    logs = driver.execute('getLog', {'type': 'performance'})['value']
-
-    # retrieve ids of relevant requests
-    for log in logs:
-        parsed_log = json.loads(log['message'])['message']
-        if parsed_log['method'] == "Network.requestWillBeSent":
-            if 'api/search?' in parsed_log['params']['request']['url']:
-                requestIDs.append(parsed_log['params']['requestId'])
-
-    for requestID in requestIDs:
-        data.append(json.loads(driver.execute_cdp_cmd('Network.getResponseBody', {'requestId':requestID})['body']))
-
-    driver.quit()
     return data
+    

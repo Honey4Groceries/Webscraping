@@ -31,19 +31,25 @@ def scrape_home():
     soup = BeautifulSoup(html, 'html.parser')
 
     #create list of links to categories
-    links = []
+    names = []
 
     #create base to add href to
-    wholefoodsBase = "https://products.wholefoodsmarket.com"
+    wholefoodsBaseFront = 'https://products.wholefoodsmarket.com/api/search?sort=relevance&store=10066&limit=20&skip=0&filters=[{"ns":"category","key":"'
+    wholefoodsBaseMiddle = '","value":"'
+    wholefoodsBaseEnd = '"}]'
+    insertion = "produce"
 
     #get hrefs and store into urls list
     for link in soup.find_all("a", {"class": \
         re.compile("Categories-Category(.*)")}):
 
         #add the url to https://www.costco.com
-        addOn = wholefoodsBase + link['href']
-        links.append(addOn)
+        name = link['href']
+        insertion = (name.split("="))[1]
+        addOn = wholefoodsBaseFront + insertion + \
+            wholefoodsBaseMiddle + insertion + \
+            wholefoodsBaseEnd
+        names.append(addOn)
 
     browser.quit()
-
-    return links
+    return names
