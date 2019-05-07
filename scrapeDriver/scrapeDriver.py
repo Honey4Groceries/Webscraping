@@ -2,8 +2,8 @@ from selenium import webdriver
 from bse4 import BeautifulSoup
 
 class scrapeDriver:
-		#Constructor with URL, desired capabilities=False
-		def __init__(self, desired_capabilities=False):
+        #Constructor with URL, desired capabilities=False
+        def __init__(self, desired_capabilities=False):
 
             #Add all chrome options
             options = webdriver.ChromeOptions()
@@ -26,19 +26,19 @@ class scrapeDriver:
                     self.driver = webdriver.Chrome('/opt/chromedriver', chrome_options=options)
 
     def get(self, url):
-    		try:
-    				self.driver.get(url)
-    		except:
-    				print('Error running driver.get() on the input URL')
-    				traceback.print_exc()
+            try:
+                    self.driver.get(url)
+            except:
+                    print('Error running driver.get() on the input URL')
+                    traceback.print_exc()
 
     def pageSource(self):
-    		return self.browser.page_source
+            return self.browser.page_source
 
     def quit(self):
         if self.driver:
             try:
-    		        self.driver.quit()
+                    self.driver.quit()
             except:
                 print('Error quitting driver')
                 traceback.print_exc()
@@ -46,26 +46,26 @@ class scrapeDriver:
             print('Driver does not exist or has already quitted')
 
     def scroll(self):
-		    """scroll down on page 
-		    
-		    Arguments:
-		        self {scrapeDriver} -- scrapeDriver to be scrolled down on
-		    """
+            """scroll down on page 
+            
+            Arguments:
+                self {scrapeDriver} -- scrapeDriver to be scrolled down on
+            """
 
         
-		    last_height = self.driver.execute_script(
+            last_height = self.driver.execute_script(
             "return document.documentElement.scrollHeight")
 
-		    while True:
-		        # execute js to scroll
-		        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
-		        time.sleep(.5)
+            while True:
+                # execute js to scroll
+                self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+                time.sleep(.5)
 
-		        # Calculate new scroll height and compare with last scroll height
-		        new_height = self.driver.execute_script(
-		        		"return document.documentElement.scrollHeight")
+                # Calculate new scroll height and compare with last scroll height
+                new_height = self.driver.execute_script(
+                        "return document.documentElement.scrollHeight")
 
-		        if new_height == last_height:
-		            return
+                if new_height == last_height:
+                    return
 
-		        last_height = new_height    		
+                last_height = new_height            
