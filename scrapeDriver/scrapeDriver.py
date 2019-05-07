@@ -3,7 +3,7 @@ from bse4 import BeautifulSoup
 
 class scrapeDriver:
         #Constructor with URL, desired capabilities=False
-        def __init__(self, desired_capabilities=False):
+        def __init__(self, enable_logging=False):
 
             #Add all chrome options
             options = webdriver.ChromeOptions()
@@ -17,7 +17,7 @@ class scrapeDriver:
             options.add_argument('disk-cache-dir=/tmp/cache-dir')
 
             #Add the additional desired_capabilities in if the optional param is true
-            if desired_capabilities:
+            if enable_logging:
                     desired_capabilities = webdriver.DesiredCapabilities.CHROME.copy()
                     desired_capabilities['loggingPrefs'] = {'performance': 'INFO'}
                     self.driver = webdriver.Chrome('/opt/chromedriver', 
@@ -26,46 +26,48 @@ class scrapeDriver:
                     self.driver = webdriver.Chrome('/opt/chromedriver', chrome_options=options)
 
     def get(self, url):
+            assert self.driver
             try:
                     self.driver.get(url)
-            except:
-                    print('Error running driver.get() on the input URL')
-                    traceback.print_exc()
+            except Exception as error:
+                    console.log("Error getting url")
+                    raise error
 
-    def pageSource(self):
-            return self.browser.page_source
+    def getPageSource(self):
+            assert self.driver
+            return self.driver.page_source
 
     def quit(self):
-        if self.driver:
+            assert self.driver
             try:
                     self.driver.quit()
-            except:
-                print('Error quitting driver')
-                traceback.print_exc()
-        else:
-            print('Driver does not exist or has already quitted')
+            except Exception as error:
+                    console.log('Error quitting driver')
+                    raise error
 
-    def scroll(self):
-            """scroll down on page 
+    def infiniteScroll(self, sleep_time=0.5):
+            """
+            Infinitely scroll down on page until the page can no longer scroll.
             
             Arguments:
                 self {scrapeDriver} -- scrapeDriver to be scrolled down on
+                double {scrapeDriver} -- time to pause between each scroll
             """
-
+            assert self.driver
         
             last_height = self.driver.execute_script(
-            "return document.documentElement.scrollHeight")
+                "return document.documentElement.scrollHeight")
 
             while True:
-                # execute js to scroll
-                self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
-                time.sleep(.5)
+                    # execute js to scroll
+                    self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+                    time.sleep(sleep_time)
 
-                # Calculate new scroll height and compare with last scroll height
-                new_height = self.driver.execute_script(
+                    # Calculate new scroll height and compare with last scroll height
+                    new_height = self.driver.execute_script(
                         "return document.documentElement.scrollHeight")
 
-                if new_height == last_height:
-                    return
+                    if new_height == last_height:
+                            return
 
-                last_height = new_height            
+                    last_height = new_height            
