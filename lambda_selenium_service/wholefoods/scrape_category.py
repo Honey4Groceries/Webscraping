@@ -4,6 +4,7 @@ import requests
 import time
 import json
 from urllib.parse import urlparse
+from urllib.parse import quote
 
 def main(event, context):
     if 'queryStringParameters' not in event.keys() or 'url' not in event['queryStringParameters'].keys():
@@ -47,16 +48,20 @@ def scrape_category(url):
     while(load_more):
         #update skip
         skip = skip + 20
-        #update url
+        #update url by putting it into a dictionary
         parsedDict = parse.parse_qs(url)
         parsedDict['skip'] = [str(skip)]
-        url = urlparse.urlunparse(parsedDict)
+        #for each value in the dictionary, remove the brackets
+        for item in parsedDict:
+            parsedDict[item] = parsedDict[item][0]
+        #put the url back together
+        url=parse.urlencode(parsedDict)
+        url=parse.unquote(url)
         #get next page
         info = requests.get(url, headers=headers)
         loaded_json = json.loads(info.text)
         load_more = loaded_json["hasLoadMore"]
-        print("actual return = "+ str(loaded_json["hasLoadMore"]))
-        print("load_more = " + str(load_more))
+        print(url)
         #add the jsons to the data list
         data.extend(loaded_json["list"])     
 
