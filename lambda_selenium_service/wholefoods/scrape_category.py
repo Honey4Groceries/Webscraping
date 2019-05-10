@@ -63,7 +63,6 @@ def scrape_category(url):
         load_more = loaded_json["hasLoadMore"]
         print(url)
         #add the jsons to the data list
-        data.extend(loaded_json["list"])     
+        data.extend(loaded_json["list"])
 
     return data
-    
