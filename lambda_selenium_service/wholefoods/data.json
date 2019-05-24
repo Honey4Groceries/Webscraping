@@ -1,0 +1,3821 @@
+{
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "isBase64Encoded": false,
+    "statusCode": 200,
+    "body": [
+        {
+            "product_name": "Organic Fair Trade Strawberries",
+            "price": 4.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 72,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Honeycrisp Apples",
+            "price": 3.79,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 182,
+                "totalSizeUom": "apple",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "apple (medium)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Large Hass Avocado, 1 each",
+            "price": 1.79,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 201,
+                "totalSizeUom": "avocado",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "4",
+                "servingsPerContainer": 4,
+                "servingSizeUom": "avocado",
+                "servingSize": 0.25
+            }
+        },
+        {
+            "product_name": "Organic Large Hass Avocado, 1 each",
+            "price": 2.29,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 200,
+                "totalSizeUom": "avocado (medium)",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 50,
+                "servingsPerContainerDisplay": "4",
+                "servingsPerContainer": 4,
+                "servingSizeUom": "avocado (medium)",
+                "servingSize": 0.25
+            }
+        },
+        {
+            "product_name": "Organic Raspberries",
+            "price": 4.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 170,
+                "totalSizeUom": "oz",
+                "totalSize": 6,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 61.5,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Whole Trade® Organic Bananas",
+            "price": 0.69,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 118,
+                "totalSizeUom": "banana",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "banana ",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Broccoli",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 45.5,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Blackberries",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 170,
+                "totalSizeUom": "oz",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 72,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Cherries",
+            "price": 6.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "servingSize": 0.5,
+                "servingSizeUom": "cup",
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSize": 69,
+                "secondaryServingSizeUom": "g",
+                "totalSize": 1,
+                "totalSizeUom": "lb",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Small Hass Avocado, 1 each",
+            "price": 1.49,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 201,
+                "totalSizeUom": "avocado",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "4",
+                "servingsPerContainer": 4,
+                "servingSizeUom": "avocado",
+                "servingSize": 0.25
+            }
+        },
+        {
+            "product_name": "Organic Large Fuji Apple",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 192,
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 192,
+                "totalSizeUom": "each",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "apple",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Lemon, 1 each",
+            "price": 0.69,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 58,
+                "totalSizeUom": "lemon",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "",
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "lemon",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Strawberries",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 72,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Cherries",
+            "price": 7.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 69,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (without pits)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Whole Trade® Bananas",
+            "price": 0.49,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryTotalSizeUom": "oz",
+                "secondaryTotalSize": 16,
+                "totalSizeUom": "lb",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 118,
+                "servingSizeUom": "medium",
+                "servingSize": 1,
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Honeycrisp Apple",
+            "price": 2.79,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "totalSizeUom": "g",
+                "totalSize": 223,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "apple",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Raspberries",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 170,
+                "totalSizeUom": "oz",
+                "totalSize": 6,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 61.5,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Vine Tomato",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "tomato",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 123,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "tomato",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Cauliflower, 1 each",
+            "price": 3.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 53.5,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Zucchini Squash",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 56.5,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Heirloom Tomato",
+            "price": 4.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "tomato",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 123,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "tomato",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Cilantro Bunch, 1 each",
+            "price": 1.49,
+            "categories": [
+                "produce",
+                "produce.fresh-herbs"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "oz",
+                "secondaryTotalSize": 2.8,
+                "totalSizeUom": "bunch",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 4,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.25
+            }
+        },
+        {
+            "product_name": "Organic Yellow Onion",
+            "price": 1.29,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "onion",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 80,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Green Kale, 1 each",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "bunch",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 85,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (raw)",
+                "servingSize": 2
+            }
+        },
+        {
+            "product_name": "Green Seedless Grapes",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 75.5,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Seedless Red Grapes",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 75.5,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Red Onion",
+            "price": 1.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "onion (large)",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 80,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Limes, 1 each",
+            "price": 0.33,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 67,
+                "totalSizeUom": "lime",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "lime",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Garnet Yam Sweet Potato",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 130,
+                "totalSizeUom": "potato",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "",
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "potato",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Scallion Green Onion, 1 each",
+            "price": 1.29,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 6,
+                "servingsPerContainer": null,
+                "totalSizeUom": "bunch",
+                "totalSize": 1,
+                "servingSizeUom": "tbsp (chopped)",
+                "servingSize": 1,
+                "servingsPerContainerDisplay": "Varies"
+            }
+        },
+        {
+            "product_name": "Whole Trade® Organic Red Bell Peppers",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 46,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Green Cucumber, 1 each",
+            "price": 1.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "cucumber",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 100,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (slices)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Garlic",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "head",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "tsp",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Blueberries, 1 each",
+            "price": 4.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 74,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Baby Spinach",
+            "price": 4.99,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 30,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "totalSize": 16,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 1,
+                "secondaryTotalSizeUom": "POUND",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Organic Ginger Root",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 2,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "tsp",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Tomato On The Vine",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 123,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "tomato",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Mixed Berries",
+            "price": 7.19,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "servingSize": 5,
+                "servingSizeUom": "oz",
+                "servingsPerContainerDisplay": "2.7",
+                "totalSize": 1,
+                "totalSizeUom": "lb",
+                "servingsPerContainer": 2.7
+            }
+        },
+        {
+            "product_name": "Organic Italian Parsley Bunch, 1 each",
+            "price": 1.49,
+            "categories": [
+                "produce",
+                "produce.fresh-herbs"
+            ],
+            "serving_info": {
+                "totalSizeUom": "bunch",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 3.8,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "tbsp",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Zucchini Squash",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 56.5,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Granny Smith Apple",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 167,
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 167,
+                "totalSizeUom": "each",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "apple (medium)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Brussel Sprouts, 1 each",
+            "price": 4.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 88,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryTotalSizeUom": "lb",
+                "secondaryTotalSize": 1,
+                "totalSizeUom": "oz",
+                "totalSize": 16,
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Rainier Cherries",
+            "price": 6.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 69,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (without pits)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Seedless Watermelon, 1 each",
+            "price": 8.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "watermelon",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 152,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Green Cabbage",
+            "price": 0.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 908,
+                "totalSizeUom": "head",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 89,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Baby Broccoli, 1 each",
+            "price": 3.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 20,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Loose Carrots",
+            "price": 0.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 61,
+                "totalSizeUom": "carrot (medium)",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "carrot (medium)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Lemon, 1 each",
+            "price": 0.89,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 58,
+                "totalSizeUom": "lemon",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "",
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "lemon",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Romaine Lettuce, 1 each",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 47,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Green Cucumber, 1 each",
+            "price": 0.79,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "cucumber",
+                "totalSize": 1,
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (raw)",
+                "servingSize": 1,
+                "servingsPerContainerDisplay": "Varies"
+            }
+        },
+        {
+            "product_name": "Organic Pink Lady Apple",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 182,
+                "totalSizeUom": "apple",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "",
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "apple",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Loose Red Beets",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 82,
+                "totalSizeUom": "beet",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "",
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "beet",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Carrot Bunch, 1 each",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "bunch",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 61,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "vegetable (medium)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Dino Kale, 1 each",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "bunch",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 32,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 2
+            }
+        },
+        {
+            "product_name": "Organic Green Leaf Lettuce, 1 each",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 55,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (raw)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Kiwi, 1 each",
+            "price": 0.79,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "oz",
+                "secondaryTotalSize": 16,
+                "secondaryServingSize": 69,
+                "secondaryServingSizeUom": "g",
+                "servingsPerContainer": null,
+                "totalSizeUom": "lb",
+                "totalSize": 1,
+                "servingSizeUom": "kiwi",
+                "servingSize": 1,
+                "servingsPerContainerDisplay": "Varies"
+            }
+        },
+        {
+            "product_name": "Organic Red Radish Bunch, 1 each",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 58,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Baby Spinach",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 146,
+                "totalSizeUom": "oz",
+                "totalSize": 5,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 85,
+                "servingsPerContainerDisplay": "2",
+                "servingsPerContainer": 2,
+                "servingSizeUom": "cup",
+                "servingSize": 3
+            }
+        },
+        {
+            "product_name": "Organic Red Leaf Lettuce, 1 each",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 28,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (raw)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Icebox Watermelon, 1 each",
+            "price": 4.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "pound",
+                "secondaryTotalSize": 5,
+                "totalSizeUom": "watermelon",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 152,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Butternut Squash",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "squash",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 140,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Russet Potato",
+            "price": 0.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 213,
+                "totalSizeUom": "potato",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "potato",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic English Cucumber, 1 each",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 301,
+                "totalSizeUom": "vegetable (medium)",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 104,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Russet Potato",
+            "price": 0.79,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryServingSize": 213,
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "lb",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "potato (medium)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Shiitake Mushrooms",
+            "price": 14.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 44,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (raw)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Blueberries, 1 each",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "item",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 74,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Japanese Yam",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 150,
+                "totalSizeUom": "yam",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "",
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "yam",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Carrots",
+            "price": 1.99,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 61,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1,
+                "totalSize": 32,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 907,
+                "secondaryTotalSizeUom": "g",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Organic Broccoli Florets",
+            "price": 3.49,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 71,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "totalSize": 10,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 283,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Organic California Grown Carrots",
+            "price": 3.99,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 61,
+                "servingSizeUom": "medium",
+                "servingSize": 1,
+                "totalSize": 80,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 5,
+                "secondaryTotalSizeUom": "POUND",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Organic Spaghetti Squash",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "pound",
+                "secondaryTotalSize": 6,
+                "totalSizeUom": "squash",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 155,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (cooked)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Red Cabbage",
+            "price": 1.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 839,
+                "totalSizeUom": "head",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 89,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Red Potato",
+            "price": 1.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 213,
+                "totalSizeUom": "potato (medium)",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "potato (medium)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Whole Trade® Red Bell Pepper",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 46,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Whole Trade® Organic English Cucumber, 1 each",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "cucumber",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 104,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Hot House English Cucumber, 1 each",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 301,
+                "totalSizeUom": "vegetable (medium)",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 104,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Hot House Tomato",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 123,
+                "totalSizeUom": "tomato",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 123,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "tomato",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Cantaloupe, 1 each",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 552,
+                "totalSizeUom": "melon",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 156,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Campari Tomatoes",
+            "price": 4.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 341,
+                "totalSizeUom": "oz",
+                "totalSize": 12,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 180,
+                "servingSizeUom": "cup chopped",
+                "servingSize": 1,
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Organic Leeks",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "bunch",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 89,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "leek",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Supergreens!",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "oz",
+                "totalSize": 5,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 85,
+                "servingsPerContainerDisplay": "2",
+                "servingsPerContainer": 2,
+                "servingSizeUom": "cup (raw)",
+                "servingSize": 3
+            }
+        },
+        {
+            "product_name": "Cauliflower, 1 each",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 53.5,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Yellow Potato",
+            "price": 1.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "g",
+                "totalSize": 213,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "potato (medium)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Spinach Bunch, 1 each",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 454,
+                "totalSizeUom": "bunch",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 60,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (raw)",
+                "servingSize": 2
+            }
+        },
+        {
+            "product_name": "Nectarines",
+            "price": 3.49,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryServingSize": 142,
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 142,
+                "totalSizeUom": "each",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "each",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Strawberries",
+            "price": 6.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 72,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (whole)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Fuji Apple",
+            "price": 1.69,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "totalSizeUom": "g",
+                "totalSize": 192,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "apple (medium)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Roma Plum Tomato",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "tomato",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 62,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "tomato",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Wtg Orange Bell Pepper",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 46,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Broccoli Crowns",
+            "price": 1.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 45.5,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Riced Cauliflower",
+            "price": 4.99,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 100,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "totalSize": 16,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 1,
+                "secondaryTotalSizeUom": "POUND",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Organic Spring Mix",
+            "price": 4.99,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSize": 16,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 1,
+                "secondaryTotalSizeUom": "POUND",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Wild Wonders Gourmet Medley Tomatoes",
+            "price": 3.49,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 341,
+                "totalSizeUom": "oz",
+                "totalSize": 12,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 92,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "oz",
+                "servingSize": 3.25
+            }
+        },
+        {
+            "product_name": "Organic Sweet Onions",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 331,
+                "totalSizeUom": "onion",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 75,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Red Beet Bunch, 1 each",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 82,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "beet",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Baby Spinach",
+            "price": 1.99,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "4.5",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 30,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "totalSize": 5,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 142,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": 4.5
+            }
+        },
+        {
+            "product_name": "Organic White Onion",
+            "price": 1.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 453,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 80,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Green Artichoke, 1 each",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 128,
+                "totalSizeUom": "artichoke",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "",
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "artichoke (medium)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Whole Trade Red Grapes",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 75.5,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Fennel Bulb",
+            "price": 3.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "vegetable",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 87,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Green Bell Pepper",
+            "price": 1.79,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pepper",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 46,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Yellow Onion",
+            "price": 0.79,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "onion",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 80,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "White Peach",
+            "price": 3.79,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 77,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "peach",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Asian Inspired Organic Salad Kit",
+            "price": 4.99,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "2",
+                "servingSize": 1,
+                "servingSizeUom": "cup dressed salad with toppings",
+                "secondaryServingSize": 85,
+                "secondaryServingSizeUom": "G",
+                "totalSize": 12,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 340,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": 2
+            }
+        },
+        {
+            "product_name": "Organic Collard Greens, 1 each",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "bunch",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 36,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Broccoli Rabe, 1 each",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "bunch",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 40,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Heirloom Tomatoes",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "tomato",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 123,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "tomato",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Whole Trade® Organic Yellow Bell Peppers",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 74.5,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Italian Salad",
+            "price": 2.69,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSize": 10,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 284,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Organic Eggplant",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 548,
+                "totalSizeUom": "eggplant",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Baby Bok Choy",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "bok choy",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 70,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (raw)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Wild Wonders Gourmet Medley",
+            "price": 6.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "servingSize": 1,
+                "servingSizeUom": "cup",
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSize": 158,
+                "secondaryServingSizeUom": "g",
+                "totalSize": 1.5,
+                "totalSizeUom": "lb",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Jewel Yam",
+            "price": 0.89,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 130,
+                "totalSizeUom": "potato",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "",
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "potato",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Cauliflower Florets",
+            "price": 3.49,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 107,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1,
+                "totalSize": 10,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 283,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Broccoli Florets",
+            "price": 2.49,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 71,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "totalSize": 12,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 340,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Angel Sweet Tomatoes",
+            "price": 6.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 681,
+                "totalSizeUom": "lb",
+                "totalSize": 1.5,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 149,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Baby Spring Mix Greens",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 142,
+                "totalSizeUom": "oz",
+                "totalSize": 5,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 85,
+                "servingsPerContainerDisplay": "2",
+                "servingsPerContainer": 2,
+                "servingSizeUom": "cup",
+                "servingSize": 3
+            }
+        },
+        {
+            "product_name": "Organic Wtg Heirloom Cherry Tomatoes",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "pint",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 149,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Hannah Sweet Potato",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 454,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 130,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "potato (medium)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Romaine Salad",
+            "price": 2.69,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSize": 10,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 284,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Super Spinach Salad",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 142,
+                "totalSizeUom": "oz",
+                "totalSize": 5,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 85,
+                "servingsPerContainerDisplay": "2",
+                "servingsPerContainer": 2,
+                "servingSizeUom": "cup",
+                "servingSize": 2
+            }
+        },
+        {
+            "product_name": "Organic Straightneck Yellow Squash",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 196,
+                "totalSizeUom": "squash",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "",
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "squash ",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Yellow Potato",
+            "price": 0.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 213,
+                "totalSizeUom": "potato",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "potato",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Shallots",
+            "price": 4.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "shallot",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 10,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "tbsp",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Eggplant",
+            "price": 1.69,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 548,
+                "totalSizeUom": "eggplant",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Mandarins",
+            "price": 5.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "lb",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 88,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "mandarin (medium)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Green Seedless Table Grapes",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 75.5,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Roma Tomato",
+            "price": 1.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "tomato",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 62,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "tomato",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "White Corn, 1 each",
+            "price": 0.79,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 102,
+                "totalSizeUom": "ear",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "ear ",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Red Chard, 1 each",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 36,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (raw)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic 50/50 Blend",
+            "price": 4.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "lb",
+                "secondaryTotalSize": 1,
+                "servingsPerContainerDisplay": "Varies",
+                "totalSize": 16,
+                "totalSizeUom": "oz",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Whole Trade® Organic Green Bell Pepper",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 46,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Shaved Brussels Sprouts",
+            "price": 2.99,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 88,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "totalSize": 12,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 340,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Small Mixed Berries",
+            "price": 8.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "servingSize": 5,
+                "servingSizeUom": "oz",
+                "servingsPerContainerDisplay": "2.7",
+                "totalSize": 1,
+                "totalSizeUom": "lb",
+                "servingsPerContainer": 2.7
+            }
+        },
+        {
+            "product_name": "Organic Dandelion Green, 1 each",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "bunch",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 110,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (raw)",
+                "servingSize": 2
+            }
+        },
+        {
+            "product_name": "Kumato Tomato, 1 each",
+            "price": 3.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 454,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 85,
+                "servingsPerContainerDisplay": "5",
+                "servingsPerContainer": 5,
+                "servingSizeUom": "tomato",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Baby Kale",
+            "price": 3.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSize": 5,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 142,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Whole Trade® Organic Mini Watermelon, 1 each",
+            "price": 4.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "pound",
+                "secondaryTotalSize": 5,
+                "totalSizeUom": "each",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 152,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Vidalia Jumbo Onion",
+            "price": 1.69,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "onion",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 80,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Cherry Tomato, 1 each",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 453,
+                "totalSizeUom": "pint",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 149,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Rainbow Baby Carrots",
+            "price": 2.49,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 85,
+                "servingSizeUom": "serving",
+                "servingSize": 1,
+                "totalSize": 12,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 340,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Icebox Watermelon, 1 each",
+            "price": 4.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "totalSizeUom": "each",
+                "totalSize": 1,
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1,
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "",
+                "secondaryTotalSize": 5,
+                "secondaryTotalSizeUom": "pound"
+            }
+        },
+        {
+            "product_name": "Organic Baby Arugula",
+            "price": 1.99,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 142,
+                "totalSizeUom": "oz",
+                "totalSize": 5,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 10,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Sweet 1015 Onion",
+            "price": 1.29,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 331,
+                "totalSizeUom": "onion",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 80,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Baby Spinach & Arugula",
+            "price": 3.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryTotalSizeUom": "gram",
+                "secondaryTotalSize": 142,
+                "totalSize": 5,
+                "totalSizeUom": "oz",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Organic Carrots",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 61,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 61,
+                "servingSize": 1,
+                "servingSizeUom": "vegetable (medium)",
+                "servingsPerContainer": null,
+                "totalSize": 1,
+                "totalSizeUom": "vegetable (medium)",
+                "servingsPerContainerDisplay": "Varies"
+            }
+        },
+        {
+            "product_name": "Organic Wtg Roma Tomato",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "tomato",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 62,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "tomato",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Green Jalapeno Pepper",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 14,
+                "totalSizeUom": "pepper (medium)",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "",
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "pepper (medium)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Southwest Salad Kit",
+            "price": 3.99,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingSize": 1,
+                "servingSizeUom": "Cup dressed salad with toppings",
+                "secondaryServingSize": 85,
+                "secondaryServingSizeUom": "G",
+                "servingsPerContainerDisplay": "2",
+                "totalSize": 11.5,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 326,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": 2
+            }
+        },
+        {
+            "product_name": "Medjool Dates",
+            "price": 7.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 340,
+                "totalSizeUom": "oz",
+                "totalSize": 12,
+                "secondaryServingSizeUom": "gram",
+                "secondaryServingSize": 24,
+                "servingsPerContainerDisplay": "4",
+                "servingsPerContainer": 4,
+                "servingSizeUom": "date",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Protein Greens",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingSize": 1,
+                "servingSizeUom": "container",
+                "secondaryServingSize": 119,
+                "secondaryServingSizeUom": "gram",
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "totalSize": 4.2,
+                "totalSizeUom": "ounce",
+                "secondaryTotalSize": 119,
+                "secondaryTotalSizeUom": "gram"
+            }
+        },
+        {
+            "product_name": "Seedless Black Grapes",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 46,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Iceberg Lettuce, 1 each",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "head",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 144,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (raw)",
+                "servingSize": 2
+            }
+        },
+        {
+            "product_name": "Nectarine",
+            "price": 3.49,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 142,
+                "totalSizeUom": "each",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "",
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "nectarine ",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Bok Choy",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 840,
+                "totalSizeUom": "head",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 70,
+                "servingsPerContainerDisplay": "12",
+                "servingsPerContainer": 12,
+                "servingSizeUom": "cup (shredded)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Cauliflower Florets",
+            "price": 2.49,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "3.5",
+                "secondaryServingSizeUom": "gram",
+                "secondaryServingSize": 107,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "totalSize": 12,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 340,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": 3.5
+            }
+        },
+        {
+            "product_name": "Whole Trade® Orange Bell Pepper",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 46,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Sweet Baby Lettuces",
+            "price": 3.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSize": 5,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 142,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Organic Wtg Eggplant",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 548,
+                "totalSizeUom": "eggplant",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Braeburn Apple",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 182,
+                "totalSizeUom": "apple",
+                "totalSize": 1,
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "apple",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Green Onion, 1 each",
+            "price": 0.89,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 15,
+                "servingsPerContainer": null,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "servingSizeUom": "scallion (medium)",
+                "servingSize": 1,
+                "servingsPerContainerDisplay": "Varies"
+            }
+        },
+        {
+            "product_name": "Organic Star Grapefruit",
+            "price": 1.69,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 246,
+                "totalSizeUom": "fruit (medium)",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 123,
+                "servingsPerContainerDisplay": "2",
+                "servingsPerContainer": 2,
+                "servingSizeUom": "fruit (medium)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Red Mango, 1 each",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 82.5,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Boston Butter Lettuce, 1 each",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 55,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (shredded)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Yellow Straightneck Squash",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 196,
+                "totalSizeUom": "squash",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "",
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "squash ",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Wtg Snap Peas",
+            "price": 3.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 453,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 63,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (raw)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Angel Sweet Tomatoes",
+            "price": 3.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 681,
+                "totalSizeUom": "lb",
+                "totalSize": 1.5,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 149,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Organic Red Kale, 1 each",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "bunch",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 85,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (raw)",
+                "servingSize": 2
+            }
+        },
+        {
+            "product_name": "Organic Green Chard, 1 each",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 36,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (raw)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Diced Onion",
+            "price": 4.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 283,
+                "totalSizeUom": "oz",
+                "totalSize": 10,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 160,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1,
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Plantains",
+            "price": 0.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSize": 148,
+                "secondaryServingSize": 148,
+                "secondaryTotalSizeUom": "g",
+                "totalSizeUom": "each",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "servingsPerContainerDisplay": "1",
+                "servingsPerContainer": 1,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Turmeric Root",
+            "price": 14.99,
+            "categories": [
+                "produce",
+                "produce.fresh-herbs"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 453,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 6,
+                "servingsPerContainerDisplay": "75",
+                "servingsPerContainer": 75,
+                "servingSizeUom": "tsp",
+                "servingSize": 2
+            }
+        },
+        {
+            "product_name": "Whole Trade French Beans",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 454,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 85,
+                "servingsPerContainerDisplay": "5",
+                "servingsPerContainer": 5,
+                "servingSizeUom": "cup",
+                "servingSize": 0.75
+            }
+        },
+        {
+            "product_name": "Cilantro, 1 each",
+            "price": 0.79,
+            "categories": [
+                "produce",
+                "produce.fresh-herbs"
+            ],
+            "serving_info": {
+                "totalSizeUom": "oz",
+                "totalSize": 2.8,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 4,
+                "servingsPerContainerDisplay": "19.8",
+                "servingsPerContainer": 19.8,
+                "servingSizeUom": "cup",
+                "servingSize": 0.25
+            }
+        },
+        {
+            "product_name": "Organic Trimmed Green Beans",
+            "price": 3.99,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 100,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "totalSize": 12,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 340,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Trio Tomatoes",
+            "price": 3.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 340,
+                "totalSizeUom": "oz",
+                "totalSize": 12,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 149,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Blueberries",
+            "price": 6.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": null,
+                "totalSizeUom": "item",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 74,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Curly Parsley Bunch, 1 each",
+            "price": 1.49,
+            "categories": [
+                "produce",
+                "produce.fresh-herbs"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "bunch",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 3.8,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "tbsp",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Broccoli Carrots Cauliflower",
+            "price": 3.49,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 283,
+                "totalSizeUom": "oz",
+                "totalSize": 10,
+                "secondaryServingSizeUom": null,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Loose Mandarin",
+            "price": 2.49,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "totalSizeUom": "lb",
+                "totalSize": 1,
+                "servingSize": 1,
+                "servingSizeUom": "cup",
+                "secondaryServingSize": 195,
+                "secondaryServingSizeUom": "g",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Organic Cilantro Bunch, 1 each",
+            "price": 1.49,
+            "categories": [
+                "produce",
+                "produce.fresh-herbs"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "oz",
+                "secondaryTotalSize": 2.8,
+                "totalSizeUom": "bunch",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 4,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup",
+                "servingSize": 0.25
+            }
+        },
+        {
+            "product_name": "Green Cabbage",
+            "price": 0.79,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 908,
+                "totalSizeUom": "head",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 89,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Rainbow Carrots, 1 each",
+            "price": 2.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryServingSize": 128,
+                "servingSize": 1,
+                "servingSizeUom": "cup (chopped)",
+                "servingsPerContainer": null,
+                "secondaryServingSizeUom": "g",
+                "totalSize": 1,
+                "totalSizeUom": "bunch",
+                "secondaryTotalSizeUom": "",
+                "servingsPerContainerDisplay": "Varies"
+            }
+        },
+        {
+            "product_name": "Organic Rainbow Chard, 1 each",
+            "price": 1.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 36,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Stringless Snap Peas",
+            "price": 2.99,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 63,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "totalSize": 8,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 227,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Organic Maradol Papaya",
+            "price": 1.69,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 72.5,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Chopped Kale",
+            "price": 3.49,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 16,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "totalSize": 16,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 1,
+                "secondaryTotalSizeUom": "POUND",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Organic Radicchio",
+            "price": 4.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "head",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 40,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (shredded)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Baby Carrots",
+            "price": 1.29,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 85,
+                "servingSizeUom": "oz",
+                "servingSize": 3,
+                "totalSize": 16,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 1,
+                "secondaryTotalSizeUom": "POUND",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Taylor Farms® Organic Veg Party Tray With Dip",
+            "price": 6.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "oz",
+                "totalSize": 16,
+                "secondaryServingSizeUom": null,
+                "servingsPerContainerDisplay": "5.3",
+                "servingsPerContainer": 5.3,
+                "servingSizeUom": "cup",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Peeled Garlic",
+            "price": 7.49,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 3,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "clove",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Wtg Shelled English Peas",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 453,
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 63,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (raw)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Stringless Snap Peas",
+            "price": 3.99,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 100,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "totalSize": 8,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 227,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Wtg Baby Carrot",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "g",
+                "secondaryTotalSize": 227,
+                "totalSizeUom": "oz",
+                "totalSize": 8,
+                "servingSize": 3,
+                "servingSizeUom": "oz",
+                "secondaryServingSize": 85,
+                "secondaryServingSizeUom": "g",
+                "servingsPerContainerDisplay": "2.5",
+                "servingsPerContainer": 2.5
+            }
+        },
+        {
+            "product_name": "Organic Daikon Radish",
+            "price": 1.69,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "pound",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 58,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Organic Endives",
+            "price": 3.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "totalSizeUom": "g",
+                "totalSize": 255,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 85,
+                "servingsPerContainerDisplay": "3",
+                "servingsPerContainer": 3,
+                "servingSizeUom": "endive",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "White Onion",
+            "price": 0.99,
+            "categories": [
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "onion",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 80,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 0.5
+            }
+        },
+        {
+            "product_name": "Gala Apples",
+            "price": 1.79,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryServingSize": 172,
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "lb",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "apple (medium)",
+                "servingSize": 1
+            }
+        },
+        {
+            "product_name": "Organic Chopped Kale",
+            "price": 3.99,
+            "categories": [
+                "365",
+                "produce",
+                "produce.fresh-vegetables"
+            ],
+            "serving_info": {
+                "servingsPerContainerDisplay": "Varies",
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 16,
+                "servingSizeUom": "cup",
+                "servingSize": 1,
+                "totalSize": 12,
+                "totalSizeUom": "OUNCE",
+                "secondaryTotalSize": 340,
+                "secondaryTotalSizeUom": "GRAM",
+                "servingsPerContainer": null
+            }
+        },
+        {
+            "product_name": "Whole Trade® Organic Seedless Watermelon, 1 each",
+            "price": 6.99,
+            "categories": [
+                "produce",
+                "produce.fresh-fruit"
+            ],
+            "serving_info": {
+                "secondaryTotalSizeUom": "",
+                "totalSizeUom": "each",
+                "totalSize": 1,
+                "secondaryServingSizeUom": "g",
+                "secondaryServingSize": 152,
+                "servingsPerContainerDisplay": "Varies",
+                "servingsPerContainer": null,
+                "servingSizeUom": "cup (chopped)",
+                "servingSize": 1
+            }
+        }
+    ]
+}

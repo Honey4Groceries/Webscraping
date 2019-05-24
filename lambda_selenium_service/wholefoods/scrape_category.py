@@ -12,11 +12,20 @@ def main(event, context):
             "headers": {'Content-Type': 'application/json'},
             "isBase64Encoded": False,
             "statusCode": 406,
-            "body": json.dumps({"data": 'URL must be specified!',"store": "Wholefoods","url": []})
+            "body": json.dumps({"store": "Wholefoods","url": [],"data": 'URL must be specified!'})
         }
         return failedResponse
 
     url = event['queryStringParameters']['url']
+
+    if "https://products.wholefoodsmarket.com/api/search?" not in url: 
+        failedResponse = {
+            "headers": {'Content-Type': 'application/json'},
+            "isBase64Encoded": False,
+            "statusCode": 406,
+            "body": json.dumps({"store": "Wholefoods","url": [],"data": 'invalid URL: URL must be Wholefoods URL!'})
+        }
+        return failedResponse
 
     product_data = scrape_category(url)
     #print(product_data)
@@ -24,7 +33,7 @@ def main(event, context):
         "headers": {'Content-Type': 'application/json'},
         "isBase64Encoded": False,
         "statusCode": 200,
-        "body": json.dumps({"data": product_data,"store": "Wholefoods","url": url})
+        "body": json.dumps({"store": "Wholefoods","url": url,"data": product_data})
     }
 
     return response

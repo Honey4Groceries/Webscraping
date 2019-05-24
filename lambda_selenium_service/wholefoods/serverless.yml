@@ -46,3 +46,10 @@ functions:
         - ${cf:selenium-layer-dev.BeautifulsoupLayerExport}
         - ${cf:selenium-layer-dev.RequestsLayerExport}
 
+  normalize_data:
+    handler: normalize_data.main
+    events:
+      - http:
+          path: normalize
+          method: post
+    layers:
